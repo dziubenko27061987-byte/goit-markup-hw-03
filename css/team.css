@@ -1,5 +1,15 @@
+.menu-team
+{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .team
 {
+    margin: 120px 141px;
     background-color: #f4f4fd;
 }
 .card-team
@@ -13,6 +23,7 @@
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    padding-bottom: 72px;
 }
 
 .name-team

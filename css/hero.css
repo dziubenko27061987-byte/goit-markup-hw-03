@@ -1,15 +1,33 @@
+.hero
+{
+    padding: 188px 0;
+    background-color: #2E2F42;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .hero-title
 {
     text-align: center;
-    background-color: #2E2F42;
     color: #FFFFFF;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .hero-button
 {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
@@ -17,7 +35,10 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    align-content: center;
+    border-radius: 4px;
 }
+
 .hero-button:hover
 {
     background-color: #404bbf;
