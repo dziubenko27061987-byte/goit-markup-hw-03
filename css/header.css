@@ -33,7 +33,6 @@
 .nav {
     align-items: center;
     justify-content: space-between;
-    gap: 76px;
     display: flex;
 }
 
@@ -66,11 +65,15 @@
     gap: 40px;
 }
 
+.address
+{
+    margin-left: auto;
+}
+
 .address-list
 {
     gap: 40px;
     display: flex;
-    margin-left: auto;
 }
 
 .address-link
