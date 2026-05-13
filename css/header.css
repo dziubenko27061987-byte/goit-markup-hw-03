@@ -1,9 +1,11 @@
 .header
 {
-    padding-top: 120px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.container
+{
+    flex-direction: row;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -31,6 +33,8 @@
 .nav {
     align-items: center;
     justify-content: space-between;
+    gap: 76px;
+    display: flex;
 }
 
 .nav-link
@@ -66,6 +70,7 @@
 {
     gap: 40px;
     display: flex;
+    margin-left: auto;
 }
 
 .address-link

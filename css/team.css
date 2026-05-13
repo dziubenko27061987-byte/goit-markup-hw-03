@@ -8,6 +8,12 @@
     justify-content: center;
 }
 
+.team-content-wrapper
+{
+    padding: 32px 16px;
+    text-align: center;
+}
+
 .team
 {
     padding: 120px 0;
@@ -16,6 +22,7 @@
 .card-team
 {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
 }
 .our-team
 {
@@ -35,7 +42,7 @@
     text-align: center;
     font-weight: 500;
     letter-spacing: 0.02em;
-    margin-top: 32px;
+    margin: 0;
     margin-bottom: 8px;
 }
 
@@ -46,7 +53,7 @@
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    margin: 0;
 }
 
 /*https://flexboxfroggy.com*/

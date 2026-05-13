@@ -2,8 +2,6 @@
 {
     padding: 188px 0;
     background-color: #2E2F42;
-    margin: 0 auto;
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +23,7 @@
 .hero-button
 {
     display: block;
-    min-width: 169px;
-    height: 56px;
+    padding: 16px 32px;
     border: none;
     background-color: #4d5ae5;
     color: #ffffff;
