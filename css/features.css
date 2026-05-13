@@ -5,8 +5,12 @@
 .feature-list
 {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+}
+
+.feature-list-item
+{
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title
